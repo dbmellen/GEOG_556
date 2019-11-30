@@ -1,0 +1,329 @@
+{ 
+   "acsTableParameters":[ 
+      { 
+         "tableId":"B06001",
+         "tableTitle":"Place of Birth by Age",
+         "offset":"2",
+         "categories":[ 
+            "Total",
+            "In State",
+            "Other State",
+            "Outside US",
+            "Foreign"
+         ],
+         "groups":[ 
+            "Total",
+            "<5",
+            "5-17",
+            "18-24",
+            "25-34",
+            "35-44",
+            "45-54",
+            "55-59",
+            "60-61",
+            "62-64",
+            "65-74",
+            ">=75"
+         ],
+         "legendTitle":"Percent <= 17",
+         "choroIdx":["0","1","2"]
+      },
+      { 
+         "tableId":"B06002",
+         "tableTitle":"Median Age By <br>Place of Birth",
+         "offset":"2",
+         "categories":[ 
+            "Total",
+            "In State",
+            "Other State",
+            "Outside US",
+            "Foreign"
+         ],
+         "groups":[ 
+            "Total"
+         ],
+         "legendTitle":"Median Age",
+         "choroIdx":["0"]
+      },
+      { 
+         "tableId":"B06003",
+         "tableTitle":"Place of Birth by Sex",
+         "offset":"2",
+         "categories":[ 
+            "Total",
+            "In State",
+            "Other State",
+            "Outside US",
+            "Foreign"
+         ],
+         "groups":[ 
+            "Total",
+            "Male",
+            "Female"
+         ],
+         "legendTitle":"Overall Percent Male",
+         "choroIdx":["0","1"]
+      },
+      { 
+         "tableId":"B06009",
+         "tableTitle":"Place of Birth by <br>Educational Attainment",
+         "offset":"2",
+         "categories":[ 
+            "Total",
+            "In State",
+            "Other State",
+            "Outside US",
+            "Foreign"
+         ],
+         "groups":[ 
+            "Total",
+            "< High School",
+            "High School",
+            "Some College",
+            "Bachelor's Degree",
+            "Graduate Degree"
+         ],
+         "legendTitle":"Overall Percent <br><= High School",
+         "choroIdx":["0","1","2"]
+      },
+      { 
+         "tableId":"B06010",
+         "tableTitle":"Place of Birth by Income",
+         "offset":"2",
+         "categories":[ 
+            "Total",
+            "In State",
+            "Other State",
+            "Outside US",
+            "Foreign"
+         ],
+         "groups":[ 
+            "Total",
+            "No income",
+            "With income",
+            "$1 to $9,999 or loss",
+            "$10,000 to $14,999",
+            "$15,000 to $24,999",
+            "$25,000 to $34,999",
+            "$35,000 to $49,999",
+            "$50,000 to $64,999",
+            "$65,000 to $74,999",
+            "$75,000 or more"
+         ],
+         "legendTitle":"Overall Percent <br>Income >= $65,000",
+         "choroIdx":["0","9","10"]
+      },
+      { 
+         "tableId":"B06011",
+         "tableTitle":"Median Income in the Past <br>12 Months By Place of Birth",
+         "offset":"2",
+         "categories":[ 
+            "Total",
+            "In State",
+            "Other State",
+            "Outside US",
+            "Foreign"
+         ],
+         "groups":[ 
+            "Total"
+         ],
+         "legendTitle":"Median Income",
+         "choroIdx":["0"]
+      },
+      { 
+         "tableId":"B06012",
+         "tableTitle":"Place of Birth <br>by Poverty Status",
+         "offset":"2",
+         "categories":[ 
+            "Total",
+            "In State",
+            "Other State",
+            "Outside US",
+            "Foreign"
+         ],
+         "groups":[ 
+            "Total",
+            "Below 100% poverty",
+            "100 to 149% poverty",
+            "At or above 150% poverty"
+         ],
+         "legendTitle":"Overall % in Poverty",
+         "choroIdx":["0","1"]
+      },
+      
+      
+      { 
+         "tableId":"B07001",
+         "tableTitle":"Geographical Mobility <br>in the Past Year By Age",
+         "offset":"2",
+         "categories":[ 
+            "Total",
+            "Same house 1 year ago",
+            "Moved within same county",
+            "Moved from different county within same state",
+            "Moved from different state",
+            "Moved from abroad"
+         ],
+         "groups":[ 
+            "Total",
+            "1-4",
+            "5-17",
+            "18-19",
+            "20-24",
+            "25-29",
+            "30-34",
+            "35-39",
+            "40-44",
+            "45-49",
+            "50-54",
+            "55-59",
+            "60-64",
+            "65-69",
+            "70-74",
+            ">=75"
+         ],
+         "legendTitle":"Overall Percent <br>Same House",
+         "choroIdx":["0","16"]
+      },
+      { 
+         "tableId":"B07002",
+         "tableTitle":"Median Age <br>Geographical Mobility <br>in the Past Year",
+         "offset":"2",
+         "categories":[ 
+            "Total",
+            "Same house 1 year ago",
+            "Moved within same county",
+            "Moved from different county within same state",
+            "Moved from different state",
+            "Moved from abroad"
+         ],
+         "groups":[ 
+            "Total"
+         ],
+         "legendTitle":"Median Age",
+         "choroIdx":["0"]
+      },
+     { 
+         "tableId":"B07007",
+         "tableTitle":"Geographical Mobility <br>in the Past Year <br>By Citizenship Status",
+         "offset":"2",
+         "categories":[ 
+            "Total",
+            "Same house 1 year ago",
+            "Moved within same county",
+            "Moved from different county within same state",
+            "Moved from different state",
+            "Moved from abroad"
+         ],
+         "groups":[ 
+            "Total",
+            "Native",
+            "Foreign born",
+            "Foreign born: Naturalized U.S. citizen",
+            "Foreign born: Not a U.S. citizen"
+         ],
+         "legendTitle":"Overall Percent <br>Native US, Same House",
+         "choroIdx":["0","5"]
+      },
+      { 
+         "tableId":"B07009",
+         "tableTitle":"Geographical Mobility <br>in the Past Year by <br>Educational Attainment",
+         "offset":"2",
+         "categories":[ 
+           "Total",
+           "< High School",
+           "High School",
+           "Some College",
+           "Bachelor's Degree",
+           "Graduate Degree"
+         ],
+         "groups":[ 
+            "Total",
+            "< High School",
+            "High School",
+            "Some College",
+            "Bachelor's Degree",
+            "Graduate Degree"
+         ],
+         "legendTitle":"Overall Percent <br><= High School",
+         "choroIdx":["0","1","2"]
+      },
+      { 
+         "tableId":"B07010",
+         "tableTitle":"Geographical Mobility <br>in the Past Year <br>By Income",
+         "offset":"2",
+         "categories":[ 
+            "Total",
+            "Same house 1 year ago",
+            "Moved within same county",
+            "Moved from different county within same state",
+            "Moved from different state",
+            "Moved from abroad"
+         ],
+         "groups":[ 
+            "Total",
+            "No income",
+            "With income:",
+            "$1 to $9,999 or loss",
+            "$10,000 to $14,999",
+            "$15,000 to $24,999",
+            "$25,000 to $34,999",
+            "$35,000 to $49,999",
+            "$50,000 to $64,999",
+            "$65,000 to $74,999",
+            "$75,000 or more"
+         ],
+         "legendTitle":"Overall Percent <br>Income >= $65,000",
+         "choroIdx":["0","9","10"]
+      },
+      { 
+         "tableId":"B07011",
+         "tableTitle":"Median Income <br>By Geographical Mobility <br>in the Past Year By Age",
+         "offset":"2",
+         "categories":[ 
+            "Total",
+            "Same house 1 year ago",
+            "Moved within same county",
+            "Moved from different county within same state",
+            "Moved from different state",
+            "Moved from abroad"
+         ],
+         "groups":[ 
+            "Total"
+         ],
+         "legendTitle":"Median Income, <br>Same House",
+         "choroIdx":["0"]
+      },
+      { 
+         "tableId":"B07204",
+         "tableTitle":"Geographical Mobility <br>in the Past Year - State, <br>County and Place Level",
+         "offset":"2",
+         "categories":[ 
+            "Total",
+            "Same house 1 year ago:",
+            "Different house in United States 1 year ago:",
+            "  Same city or town:",
+            "    Same county",
+            "    Different county (same state)",
+            "  Elsewhere:",
+            "    Same county",
+            "    Different county:",
+            "     Same State",
+            "      Different state:",
+            "        Northeast",
+            "        Midwest",
+            "        South",
+            "      West",
+            "  Abroad 1 year ago:",
+            "    Puerto Rico",
+            "    U.S. Island Areas",
+            "    Foreign country"
+         ],
+         "groups":[ 
+            "Total"
+         ],
+         "legendTitle":"Percent Same House",
+         "choroIdx":["0","1"]
+      }
+   ]
+}
