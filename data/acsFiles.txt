@@ -1,0 +1,6 @@
+data/2018/US/US/ACS1/us.2018.us.acs1.B06001.csv
+data/2018/US/US/ACS1/us.2018.us.acs1.B06002.csv
+data/2018/US/US/ACS1/us.2018.us.acs1.B06009.csv
+data/2018/US/US/ACS1/us.2018.us.acs1.B06010.csv
+data/2018/US/US/ACS1/us.2018.us.acs1.B06011.csv
+data/2018/US/US/us.2018.us.20m.geojson
