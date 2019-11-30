@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: auto 325px;
+  grid-template-rows: 50px 450px 275px;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+.header {
+  grid-row: 1;
+  grid-column: 1/3;
+  text-align: center;
+}
+
+h1,
+h3 {
+  text-align: center;
+  margin-top: 0.0em;
+  margin-bottom: 0.0em;
+  background-color: #ffffff;
+}
+
+.map_div {
+  grid-row: 2;
+  grid-column: 1;
+/*   height: 400px; */
+}
+
+.controls {
+  grid-row: 2;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: auto 250px 50px;
+  grid-row-gap: 10px;
+}
+
+.acsTables {
+  grid-row: 1;
+  grid-column: 1;
+/*   height: 200px; */
+}
+
+.filter {
+  grid-row: 2;
+  grid-column: 1;
+  display: block;
+  text-align: center;
+  padding-left: 50px;
+}
+
+.timeSeries {
+  grid-row: 3;
+  grid-column: 1;
+}
+
+.charts {
+  grid-row: 3;
+  grid-column: 1 / 3;
+  display: grid;
+  grid-template-rows: 250px;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+#chart1 {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+#chart2 {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.acsSelectTable {
+  display: inline-block;
+  float: left;
+  clear: left;
+  width: 150px;
+  text-align: left;
+  padding-bottom: 3px;
+}
+
+select {
+  display: block;
+  float: left;
+    background-color: #ffffff;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+.buttons {
+  text-align: left;
+  padding-left: 80px;
+  background-color: #ffffff;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+.drawButton {
+  text-align: left;
+  padding-left: 5px;
+}
+
+.acsSelectTable {
+  display: block;
+  height: 200px;
+  overflow-y: scroll;
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: auto;
+}
+
+tbody {
+  overflow-y: scroll;
+  height: 100px;
+}
+
+th {
+  background-color: #eee;
+}
+
+td {
+  bgcolor: #ffffff
+  border: 1px solid black;
+}
+
+tr.selectedRow td {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+
+tr.availAcsTable:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+tr.availAcsTable:nth-child(odd) {
+    background-color: #fefefe;
+}
+
+td {
+  text-align: center;
+  /*   border: 1px solid black; */
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #eee;
+}
+
+.modebar-container {
+  display: none;
+}
+
+.right {
+  text-align: right;
+}
+
+.blank_row {
+  height: 10px !important;
+  /* overwrites any other rules */
+  background-color: #FFFFFF;
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+	background-color: #d3d3d3;
+	opacity: 0.8;
+	padding: 7px;
+	border-radius: 7px;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+
+}
+p.legendTitle {
+	font-size: 14px;
+	font-weight: bold;}
+
+.mapTitle {
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #d3d3d3;
+	opacity: 0.8;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+body {
+	background-color: #87CEFA;
+}
