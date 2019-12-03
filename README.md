@@ -1,14 +1,16 @@
 # GEOG_556
+
 View American Community Survey data using a map
-===============================================
+===
 
 <a href="https://dbmellen.github.io/GEOG_556/Donald_Mellen_Project.html" target="_blank">***GEOG_556 Project***</a>
 ================
+
 Currently Supported Tables
 --------------------------
 
 |TABLE|TITLE|
-|-----|-----|
+|---|---|
 |B06001|PLACE OF BIRTH BY AGE IN THE UNITED STATES|
 |B06002|MEDIAN AGE BY PLACE OF BIRTH IN THE UNITED STATES|
 |B06003|PLACE OF BIRTH BY SEX IN THE UNITED STATES|
