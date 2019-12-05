@@ -6,6 +6,15 @@ View American Community Survey data using a map
 <a href="https://dbmellen.github.io/GEOG_556/Donald_Mellen_Project.html" target="_blank">***GEOG_556 Project***</a>
 ================
 
+Instructions
+-----------
+
+1. Select filter criteria and click apply - only tables meeting the specified criteria will be shown 
+2. Select desired row from the table - hover over a row to see a tooltip about the table 
+3. Select a region on the map - Bar chart of availalbe information for selected table and region will be drawn 
+5. Select a variable and click 'Draw Time Series' a line graph of the selected variable will be drawn 
+* For either chart, traces can be turned on and off 
+
 Currently Supported Tables
 --------------------------
 
